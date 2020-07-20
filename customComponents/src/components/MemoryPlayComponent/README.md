@@ -21,8 +21,8 @@ components: [{
 **返回的时间的单位都是 秒**
 
 - `autoPlay`: `Boolean`, 可选参数, 默认为 `false`。是否启用自动播放。
-- `getTime`: 函数, 获取视频结束时间函数, 可选参数方法。不传则保存到localStorage。
-- `saveTime`: 函数, 自定义起播时间函数, 可选参数方法。不传则默认从localStorage获取起播时间。
+- `getTime`: 函数, 自定义起播时间函数, 可选参数方法。不传则默认从localStorage获取起播时间。
+- `saveTime`: 函数, 获取视频结束时间函数, 可选参数方法。不传则保存到localStorage。
 
 > `saveTime` 的参数就是一个视频标识对应一个结束时间
 - `memoryVideo`: `String`, 必填参数。视频标识。
